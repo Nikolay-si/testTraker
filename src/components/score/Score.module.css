@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  min-width: 92px;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 4px;
+}
+.score {
+  display: flex;
+  margin: 0 auto;
+}
+.score p {
+  margin: 0;
+  line-height: 1;
+  font-size: 20px;
+}
+.status {
+  padding: 6px 8px;
+  background-color: #43ad28;
+  border-radius: 4px;
+}

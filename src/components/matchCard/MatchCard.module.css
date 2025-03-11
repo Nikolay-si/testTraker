@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 4px;
+  padding: 16px;
+
+  height: auto;
+  margin: 0 auto;
+  margin-bottom: 12px;
+  background-color: #0b0e12;
+}

@@ -1,0 +1,40 @@
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 42px;
+  padding-bottom: 20px;
+}
+.errorContainer {
+  display: flex;
+  gap: 12px;
+}
+.errorMessageHidden {
+  display: none;
+}
+.errorMessage {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  background-color: #0f1318;
+  padding: 0 16px;
+  border-radius: 4px;
+}
+.refreshButton {
+  display: flex;
+  width: 204px;
+  height: 56px;
+  background-color: #eb0237;
+  border-radius: 4px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.refreshButton:disabled {
+  cursor: not-allowed;
+  background-color: #701328;
+}
+
+.errorIcon {
+  width: 28px;
+  height: 28px;
+}
