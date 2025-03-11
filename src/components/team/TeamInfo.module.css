@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+  gap: 14px;
+  padding: 2px 0;
+}
+.home {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.teamName {
+  font-size: 16px;
+}
